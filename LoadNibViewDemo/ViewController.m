@@ -68,6 +68,9 @@
 }
 
 //xib 用法一，  xib from xib 二
+- (IBAction)touchTest:(id)sender {
+    NSLog(@"touchTest");
+}
 
 - (void)didReceiveMemoryWarning
 {
